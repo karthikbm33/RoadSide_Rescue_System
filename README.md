@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:1a0000,30:7b0000,60:c0392b,100:e74c3c&height=280&section=header&text=🚨%20RoadSide%20Rescue&fontSize=58&fontColor=ffffff&fontAlignY=42&desc=Emergency%20Rescue%20System%20for%20Road%20Accidents&descSize=18&descAlignY=62&descColor=ffcccc&animation=twinkling" width="100%" />
+<img src="src/Screenshot.png" width="100%" />
 
 <br/>
 
