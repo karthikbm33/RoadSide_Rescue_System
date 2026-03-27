@@ -1,0 +1,8 @@
+{
+  "name": "Roadside Rescue - Vehicles Hub",
+  "description": "A premium, dark-themed roadside assistance platform with AI-powered diagnostics and mechanic matching.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera"
+  ]
+}
