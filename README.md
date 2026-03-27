@@ -126,35 +126,39 @@ git clone https://github.com/karthikbm33/RoadSide_Rescue_System.git
 ```
 📦 RoadSide_Rescue_System/
 │
-├── 📂 assets/                   ← Static files
-│   ├── 📂 css/                  ← Stylesheets
-│   ├── 📂 js/                   ← JavaScript files
-│   └── 📂 images/               ← Images & icons
+├── frontend/              # Frontend files (UI)
+│   ├── index.html
+│   ├── styles.css
+│   ├── script.js
+│   └── assets/           # Images, icons, etc.
 │
-├── 📂 config/                   ← Configuration files
-│   └── 📄 database.php          ← DB connection setup
+├── backend/              # Backend server
+│   ├── server.js
+│   ├── routes/
+│   │   ├── userRoutes.js
+│   │   ├── serviceRoutes.js
+│   │   └── requestRoutes.js
+│   │
+│   ├── controllers/
+│   │   ├── userController.js
+│   │   ├── serviceController.js
+│   │   └── requestController.js
+│   │
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── ServiceProvider.js
+│   │   └── Request.js
+│   │
+│   └── config/
+│       └── db.js
 │
-├── 📂 admin/                    ← Admin panel pages
-│   ├── 📄 dashboard.php
-│   ├── 📄 manage_rescue.php
-│   └── 📄 manage_users.php
+├── database/             # Database scripts or schema
+│   └── schema.sql
 │
-├── 📂 user/                     ← User panel pages
-│   ├── 📄 request_rescue.php
-│   ├── 📄 track_rescue.php
-│   └── 📄 profile.php
-│
-├── 📂 includes/                 ← Reusable components
-│   ├── 📄 header.php
-│   ├── 📄 footer.php
-│   └── 📄 navbar.php
-│
-├── 📄 index.php                 ← 🚪 Entry point
-├── 📄 login.php                 ← Login page
-├── 📄 register.php              ← Registration page
-├── 📄 rescue_db.sql             ← 🗄️ Database file
-├── 📄 LICENSE
-└── 📄 README.md
+├── .env                  # Environment variables
+├── package.json
+├── README.md
+└── LICENSE
 ```
 
 <br/>
